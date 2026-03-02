@@ -48,40 +48,17 @@
 
 - [ ] Resolving Merge Conflicts
 
-### Phase 5: Advanced & "Oh-No" Moments
-- [ ] Explain Merge Conflicts (when two people edit the exact same line).
-- [ ] Demo `git stash` and `git stash pop` (hiding work temporarily).
-- [ ] Demo `git revert <hash>` (the safe undo).
-- [ ] Explain `git reset --hard` (the dangerous undo - warn them!).
-- [ ] Open the floor for the Q&A session.
+### Phase 4: Undo Changes
+- [ ] Staged Changes
+        `git reset <--filename>`
+        `git reset`
+- [ ] One commit
+        `git log` - View your commit history (press 'q' to exit)
+        `git reset HARD~1`
 
-<br>
+- [ ] Many commits
+        `git reset <-commit hash>`
+        `git reset --hard <-commit hash>`
 
----
-
-## 📋 Part 2: Team Cheat Sheet 
-*Copy and paste the section below into the Google Meet chat or share as a GitHub Gist.*
-
-**🚀 Git & GitHub Quick Cheat Sheet**
-
-**1. Setup & Basics**
-* `git init` - Create a new local repository in your current folder.
-* `git clone <url>` - Download an existing repository from GitHub.
-* `git status` - Check the state of your files (use this constantly!).
-
-**2. The Daily Workflow**
-* `git add .` - Stage ALL modified files to be saved.
-* `git commit -m "Message"` - Save your staged changes locally with a note.
-* `git push origin main` - Upload your saved local commits to GitHub.
-* `git pull` - Download and merge the latest code from GitHub.
-
-**3. Branching (Teamwork)**
-* `git branch` - List all your local branches.
-* `git checkout -b <branch_name>` - Create a new branch AND switch to it.
-* `git merge <branch_name>` - Bring the code from another branch into your current one.
-
-**4. Lifesavers**
-* `git log` - View your commit history (press 'q' to exit).
-* `git stash` - Temporarily hide your uncommitted changes.
-* `git stash pop` - Bring those hidden changes back.
-* `git revert <commit_hash>` - Safely undo a commit by creating a reverse commit.
+### Phase 5: Fork
+- [ ] What is Fork and How to Do it.
