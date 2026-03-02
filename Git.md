@@ -46,6 +46,8 @@
 - [ ] Method-2 (with GitHub)
       create a Pull Request
 
+- [ ] Resolving Merge Conflicts
+
 ### Phase 5: Advanced & "Oh-No" Moments
 - [ ] Explain Merge Conflicts (when two people edit the exact same line).
 - [ ] Demo `git stash` and `git stash pop` (hiding work temporarily).
