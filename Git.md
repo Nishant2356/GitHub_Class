@@ -11,8 +11,8 @@
 ### Phase 2: Configuration
 - [ ] Creating a Repository in GitHub
 - [ ] `git config --global user.name "My Name"` 
-      `git config --global user.email "abcd@gmail.com"` 
-      `git config --list`
+- [ ] `git config --global user.email "abcd@gmail.com"` 
+- [ ] `git config --list`
 
 ### Phase 3: Clone & Status
 - [ ] `git clone <repo link>` 
@@ -26,18 +26,18 @@
 
 ### Phase 4: Init
 - [ ] How to add local project in GitHub
-      `git init`
-      `git remote add origin <--link>`
-      `git remote -v` (see the origin)
-      `git branch` (see the branch)
-      `git branch -M main` (rename branch)
+- [ ] `git init`
+- [ ] `git remote add origin <--link>`
+- [ ] `git remote -v` (see the origin)
+- [ ] `git branch` (see the branch)
+- [ ] `git branch -M main` (rename branch)
 
 ### Phase 5: Branch
 - [ ] `git branch` (see the branch)
-      `git branch -M main` (rename branch)
-      `git checkout <--branchname>` (navigate to branch)
-      `git checkout <--new branchname>` (create a new branch and navigate immediately)
-      `git branch -d <--branch_name>` (delete branch) (cannot delete the current branch you are standing at)
+- [ ] `git branch -M main` (rename branch)
+- [ ] `git checkout <--branchname>` (navigate to branch)
+- [ ] `git checkout <--new branchname>` (create a new branch and navigate immediately)
+- [ ] `git branch -d <--branch_name>` (delete branch) (cannot delete the current branch you are standing at)
 
 ### Phase 4: Merge
 - [ ] Method-1 (with git)
