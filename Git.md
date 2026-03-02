@@ -21,7 +21,7 @@
 
 ### Phase 4: Add & Commit
 - [ ] `git add .` 
-- [ ] `git commit -m "msg`
+- [ ] `git commit -m "msg"`
 - [ ] `git push origin main` || `git push -u origin main`(to set upstream)  then   `git push`
 
 ### Phase 4: Init
