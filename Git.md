@@ -2,29 +2,29 @@
 **Instructor:** Nishant Mishra
 
 
-### Phase 1: Introduction *
+### Phase 1: Introduction
 - [ ] History
 - [ ] what is Git & GitHub
 - [ ] Installation and creating account.
 - [ ] `git --version` (check if git exists)
 
-### Phase 2: Configuration *
+### Phase 2: Configuration
 - [ ] Creating a Repository in GitHub
 - [ ] `git config --global user.name "My Name"` 
 - [ ] `git config --global user.email "abcd@gmail.com"` 
 - [ ] `git config --list`
 
-### Phase 3: Clone & Status *
+### Phase 3: Clone & Status
 - [ ] `git clone <repo link>` 
 - [ ] `git status`
 - [ ] `ls -h` (see all the files including hidden)
 
-### Phase 4: Add & Commit *
+### Phase 4: Add & Commit
 - [ ] `git add .` 
 - [ ] `git commit -m "msg"`
 - [ ] `git push origin main` || `git push -u origin main`(to set upstream)  then   `git push`
 
-### Phase 4: Init *
+### Phase 4: Init
 - [ ] How to add local project in GitHub
 - [ ] `git init`
 - [ ] `git remote add origin <--link>`
@@ -32,7 +32,7 @@
 - [ ] `git branch` (see the branch)
 - [ ] `git branch -M main` (rename branch)
 
-### Phase 5: Branch *
+### Phase 5: Branch
 - [ ] `git branch` (see the branch)
 - [ ] `git branch -M main` (rename branch)
 - [ ] `git checkout <--branchname>` (navigate to branch)
@@ -54,7 +54,7 @@
         `git reset`
 - [ ] One commit
         `git log` - View your commit history (press 'q' to exit)
-        `git reset HARD~1`
+        `git reset HEAD~1`
 
 - [ ] Many commits
         `git reset <-commit hash>`
