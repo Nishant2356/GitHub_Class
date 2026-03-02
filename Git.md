@@ -32,11 +32,11 @@
 - [ ] `git branch` (see the branch)
 - [ ] `git branch -M main` (rename branch)
 
-### Phase 5: Branch
+### Phase 5: Branch *
 - [ ] `git branch` (see the branch)
 - [ ] `git branch -M main` (rename branch)
 - [ ] `git checkout <--branchname>` (navigate to branch)
-- [ ] `git checkout <--new branchname>` (create a new branch and navigate immediately)
+- [ ] `git checkout -b <--new branchname>` (create a new branch and navigate immediately)
 - [ ] `git branch -d <--branch_name>` (delete branch) (cannot delete the current branch you are standing at)
 
 ### Phase 4: Merge
