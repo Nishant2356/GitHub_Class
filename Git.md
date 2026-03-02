@@ -19,12 +19,12 @@
 - [ ] `git status`
 - [ ] `ls -h` (see all the files including hidden)
 
-### Phase 4: Add & Commit
+### Phase 4: Add & Commit *
 - [ ] `git add .` 
 - [ ] `git commit -m "msg"`
 - [ ] `git push origin main` || `git push -u origin main`(to set upstream)  then   `git push`
 
-### Phase 4: Init
+### Phase 4: Init *
 - [ ] How to add local project in GitHub
 - [ ] `git init`
 - [ ] `git remote add origin <--link>`
