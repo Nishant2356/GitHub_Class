@@ -2,19 +2,19 @@
 **Instructor:** Nishant Mishra
 
 
-### Phase 1: Introduction
+### Phase 1: Introduction *
 - [ ] History
 - [ ] what is Git & GitHub
 - [ ] Installation and creating account.
 - [ ] `git --version` (check if git exists)
 
-### Phase 2: Configuration
+### Phase 2: Configuration *
 - [ ] Creating a Repository in GitHub
 - [ ] `git config --global user.name "My Name"` 
 - [ ] `git config --global user.email "abcd@gmail.com"` 
 - [ ] `git config --list`
 
-### Phase 3: Clone & Status
+### Phase 3: Clone & Status *
 - [ ] `git clone <repo link>` 
 - [ ] `git status`
 - [ ] `ls -h` (see all the files including hidden)
