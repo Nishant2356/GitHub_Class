@@ -4,8 +4,7 @@
 
 ### Phase 1: Introduction
 - [ ] History
-- [ ] what is Git
-- [ ] what is Github
+- [ ] what is Git & GitHub
 - [ ] Installation and creating account.
 - [ ] `git --version` (check if git exists)
 
@@ -33,18 +32,19 @@
       `git branch` (see the branch)
       `git branch -M main` (rename branch)
 
-### Phase 3: Connecting to the Cloud (GitHub)
-- [ ] Create a new, empty repository on GitHub.com.
-- [ ] Demo `git remote add origin <url>` (link local to cloud).
-- [ ] Demo `git push -u origin main` (upload code).
-- [ ] Explain `git clone` (how to download an existing repo).
-- [ ] Explain `git pull` (how to fetch team members' updates).
+### Phase 5: Branch
+- [ ] `git branch` (see the branch)
+      `git branch -M main` (rename branch)
+      `git checkout <--branchname>` (navigate to branch)
+      `git checkout <--new branchname>` (create a new branch and navigate immediately)
+      `git branch -d <--branch_name>` (delete branch) (cannot delete the current branch you are standing at)
 
-### Phase 4: Branching (Intermediate Collaboration)
-- [ ] Explain why we branch (isolated testing).
-- [ ] Demo `git branch <name>` & `git switch <name>`.
-- [ ] Demo the shortcut: `git checkout -b feature-update`.
-- [ ] Make a change, commit it, and demo `git merge feature-update` into main.
+### Phase 4: Merge
+- [ ] Method-1 (with git)
+      `git diff <--branchname>` (to compare differences in branches)
+      `git merge <--branchname>` (to merge 2 branches)
+- [ ] Method-2 (with GitHub)
+      create a Pull Request
 
 ### Phase 5: Advanced & "Oh-No" Moments
 - [ ] Explain Merge Conflicts (when two people edit the exact same line).
